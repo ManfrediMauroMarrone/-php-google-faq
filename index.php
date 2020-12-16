@@ -43,12 +43,10 @@ $array_faq = [
 ];
 // tremite un ciclo foreach scorro tutte le domande e risposte
 foreach ($array_faq as $question_answer) {
-  // var_dump($question_answer['question1']);
+  // var_dump($question_answer);
+  var_dump($question_answer['question1']);
   // echo $question_answer['question1'] .'<br>';
   // echo $question_answer['answer1'];
-  // foreach ($question_answer as $item) {
-  //   echo $item .'<br>';
-  // }
 }
 
  ?>
